@@ -9,7 +9,7 @@ For numbers which are multiples of both 3 and 5, print "FizzBuzz" instead of the
 '''
 
 
-for i in range(1,100):
+for i in range(1,101):
     if i % 3 == 0 and i % 5 == 0:
         print("FizzBuzz")
     elif i % 3 == 0:
